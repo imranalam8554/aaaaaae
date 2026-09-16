@@ -53,7 +53,7 @@ function calculate() {
         )();
 
         if (!isFinite(result)) {
-            display.innerText = "Error";
+            display.innerText = "Errror";
         } else {
             display.innerText = result;
         }
