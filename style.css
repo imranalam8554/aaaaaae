@@ -10,6 +10,13 @@ body {
     width: 320px; 
     padding: 20px; 
     background: #ff69b4; }
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d21d1d;
+}
 
 #display {
     background: #111;
